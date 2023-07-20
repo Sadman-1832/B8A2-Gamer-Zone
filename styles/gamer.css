@@ -206,6 +206,33 @@ nav li a {
 .card .section-description{
     margin-top: 25px;
 }
+/* play imstantly related styles */
+.play-instantly{
+    display: flex;
+    margin-top: 120px;
+}
+.play-instantly-content .games-title{
+margin-left: 400px;
+margin-right: 150px;
+}
+.play-instantly-content .section-description{
+    margin-left: 440px;
+    margin-right:150px ;
+    margin-top: 30px;
+}
+.feature-img{
+    margin-right: 240px; 
+    height: 90%;
+}
+.feature-img-mini{
+    border-radius: 8px;
+    width: 320 px;
+height: 365 px;
+    margin-left:-200px;
+    padding: 10px;
+    position: relative;
+    bottom: 250px;
+}
 
 
 
@@ -300,7 +327,7 @@ width: auto;
     }
     .games .title-description{
         width: auto;
-        margin-left:40px ;
+        margin-left:60px ;
         margin-right: 40px;
     }
 
@@ -308,6 +335,7 @@ width: auto;
         width: auto;
         margin-right: 20px;
         margin-left:70px ;
+        gap: 20px;
      }
     .card .section-description{
         width: 300px;
