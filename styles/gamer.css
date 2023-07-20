@@ -239,15 +239,15 @@ height: 365 px;
 
 
 
-@media screen and (max-width:426px) {
+@media screen and (max-width:576px) {
 
-    .card, .nav-container,
+    .play-instantly, .card, .nav-container,
     nav,
     nav ul {
         flex-direction: column;
     }
     header{
-        width: 350px;
+        width: 80%;
     }
 
     .nav-container {
@@ -255,20 +255,18 @@ height: 365 px;
     }
 
     .nav-logo {
-        margin-top: 103px;
-        margin-bottom: 30px;
-        margin-left: 150px;
-        margin-right: 150px;
+       margin: auto;
     }
 
     .follow-btn {
         padding: 5px;
+        margin-left: 50px;
+
         
     }
 
     nav {
-        margin-left: 150px;
-        margin-right: 250px;
+        margin-left: 30px;
     }
 
     .banner-container {
@@ -279,22 +277,18 @@ height: 365 px;
         flex-direction: column-reverse;
     }
 
-    .banner-cover-pic {
-width: auto;
-        margin-left: 150px;
-        margin-right: 0px;
-       
-       
-       
+   .banner-cover-pic{
+    margin: auto;
+   }
 
-    }
+
 
     .banner-content {
-        width: 800px;
+        width: 700px;
         height: 700px;
         align-items: center;
 
-        margin-left: 150px;
+        margin-left: 90px;
         margin-right: 50px;
         margin-top: 30px;
         background-size: 85%;
@@ -304,13 +298,14 @@ width: auto;
     }
 
     .banner-title-1 {
+        margin: auto;
+        margin-left:30px;
         margin-top: 50px;
     }
 
     .banner-description {
-        margin-left: 250px;
-        margin-top: 25px;
-        margin-bottom: 40px;
+        margin: auto;
+        margin-left: 210px;
     }
 
     .btn-1 {
@@ -320,27 +315,55 @@ width: auto;
         width: auto;
     }
     .games .games-title{
-        width:500px ;
-        margin-right: 15px;
-        margin-left: 20spx;
-        margin-top: 0;
+        width:auto ;
+        margin: auto;
+        margin-right: 140px;
+        margin-left: 20px;
     }
     .games .title-description{
         width: auto;
-        margin-left:60px ;
-        margin-right: 40px;
+      margin: auto;
+      margin-right: 150px;
+      margin-left: 40px;
     }
 
      .card {
         width: auto;
-        margin-right: 20px;
-        margin-left:70px ;
+       margin: auto;
+       margin-left: 30px;
+       margin-top: 10px;
         gap: 20px;
      }
     .card .section-description{
         width: 300px;
+        margin-left: 20px;
+    }
+    .play-instantly{
+        width: 400px;
+    }
+    .play-instantly .games-title{
+        width:400px ; 
+       margin: auto;
+       margin-bottom: 30px;
+    }
+    .play-instantly .section-description{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .feature-img{
+        margin-right: 240px; 
+        width: 30%;
+        height: 30%;
+    }
+    .feature-img-mini{
+        
+        margin-left:50px;
+        margin-bottom: 30px;
+        
     }
         
 
-    }
+    
 
