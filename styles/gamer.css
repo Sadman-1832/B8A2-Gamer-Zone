@@ -291,11 +291,8 @@ footer .nav-logo{
 }
 .information li{
     list-style: none;
-
-font-size: 1.125rem;
-font-weight: 600;
-margin-top: 30px;
-gap: 30px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .information li a{
     text-decoration: none;
@@ -323,11 +320,10 @@ gap: 30px;
 }
 .policy li{
     list-style: none;
-
-font-size: 1.125rem;
-font-weight: 600;
-margin-top: 50px;
-gap: 30px;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 60px;
 }
 .policy li a{
     text-decoration: none;
@@ -489,12 +485,35 @@ gap: 30px;
   margin:0 auto;
   align-items: center;
   width: 250px;
-height: 60px;
 flex-shrink: 0;
 
 }
-        
 
-    
+/* footer */
 
+footer{
+    width: auto
+}
+footer .nav-logo{
+    margin: 100px 80px;
+    padding-top: 30px;
+}    
+
+.social-link a img{
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.information li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 20px;
+    margin: 0 20px; 
+
+}
 }
