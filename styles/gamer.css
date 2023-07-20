@@ -1,0 +1,87 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared common styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+/* heaader */
+/* nav related styles */
+
+nav {
+    display: flex;
+}
+
+.nav-container {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-logo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.nav-title .G {
+    color: #FF42A5;
+}
+
+.nav-container .icon-img {
+    width: 5.2rem;
+
+}
+
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-right: 30px;
+    margin-top: 50px;
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.follow-btn {
+
+    text-align: center;
+    width: 260px;
+    height: 56px; 
+    border: 0;
+    border-radius: 8px;
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-right: 240px;
+    margin-top: 50px;
+
+
+}
