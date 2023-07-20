@@ -402,6 +402,26 @@ font-weight: 600;
         margin-bottom: 30px;
         
     }
+
+    /* online games section */
+.online-games{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    margin-left: 0;
+    margin-right: 250px;
+    padding: 0;
+    max-width: 560px;
+}
+.play-games
+{ 
+  margin:0 auto;
+  align-items: center;
+  width: 250px;
+height: 60px;
+flex-shrink: 0;
+
+}
         
 
     
