@@ -7,6 +7,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+    max-width: auto;
 }
 
 .section-description {
@@ -234,6 +235,44 @@ height: 365 px;
     bottom: 250px;
 }
 
+/* online games related style */
+.play-games
+{  max-width: 1200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 50px;
+background: #FFF;
+margin: 130px 230px;
+padding: 10px 20px;
+gap: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.online-games{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.game-1, .game-2, .game-3, .game-4, .game-5, .game-6, .game-7, .game-8, .game-9{
+    
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+font-size: 1.4rem;
+font-weight: 600;
+    width: 250px;
+    gap: 20px;
+
+
+
+}
+
+
 
 
 
@@ -367,3 +406,4 @@ height: 365 px;
 
     
 
+}
